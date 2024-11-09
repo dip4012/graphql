@@ -6,7 +6,7 @@ const schema = buildSchema(`
     }
 
     enum Soldout {
-        SOLDOUT,
+        SOLDOUT
         ONSALE
     }
 
