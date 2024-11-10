@@ -9,9 +9,14 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"casual": "^1.6.2",
 		"express": "^4.21.1",
 		"express-graphql": "^0.12.0",
-		"graphql": "^16.9.0"
+		"graphql": "^16.9.0",
+		"lodash": "^4.17.21",
+		"mongoose": "^8.8.1",
+		"sequelize": "^6.37.5",
+		"sqlite3": "^5.1.7"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.25.9",

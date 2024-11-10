@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Widget 1",
+		"description": "Another widget description 1",
+		"price": 20.99,
+		"soldout": "ONSALE",
+		"inventory": 80,
+		"stores": [
+			{ "store": "Kolkata" },
+			{ "store": "Mumbai" },
+			{ "store": "Lucknow" }
+		]
+	},
+	{
+		"name": "Widget 2",
+		"description": "Another widget description 2",
+		"price": 30.99,
+		"soldout": "ONSALE",
+		"inventory": 180,
+		"stores": [
+			{ "store": "Kolkata" },
+			{ "store": "Ranchi" },
+			{ "store": "Lucknow" }
+		]
+	},
+	{
+		"name": "Widget 3",
+		"description": "Another widget description 3",
+		"price": 210.5,
+		"soldout": "SOLDOUT",
+		"inventory": 0,
+		"stores": [
+			{ "store": "Kolkata" },
+			{ "store": "Mumbai" },
+			{ "store": "Lucknow" },
+			{ "store": "Delhi" }
+		]
+	},
+	{
+		"name": "Widget 4",
+		"description": "Another widget description 4",
+		"price": 50.0,
+		"soldout": "ONSALE",
+		"inventory": 100,
+		"stores": [
+			{ "store": "Kolkata" },
+			{ "store": "Mumbai" },
+			{ "store": "Lucknow" }
+		]
+	},
+	{
+		"name": "Widget 5",
+		"description": "Another widget description 5",
+		"price": 1020.99,
+		"soldout": "ONSALE",
+		"inventory": 20,
+		"stores": [{ "store": "Kolkata" }, { "store": "Mumbai" }]
+	},
+	{
+		"name": "Widget 6",
+		"description": "Another widget description 6",
+		"price": 200.99,
+		"soldout": "ONSALE",
+		"inventory": 800,
+		"stores": [{ "store": "Mumbai" }, { "store": "Delhi" }]
+	},
+	{
+		"name": "Widget 7",
+		"description": "Another widget description 7",
+		"price": 250.0,
+		"soldout": "SOLDOUT",
+		"inventory": 230,
+		"stores": [
+			{ "store": "Kolkata" },
+			{ "store": "Mumbai" },
+			{ "store": "Lucknow" }
+		]
+	}
+]

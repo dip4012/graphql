@@ -1,0 +1,68 @@
+# mutation {
+#   createProduct(input: {
+#     name: "Widget 8",
+#     description: "Another beautiful widget 8",
+#     price: 910.00,
+#     soldout: ONSALE,
+#     inventory: 6,
+#     stores:	[
+#       { store: "Kolkata" },
+#       { store: "Mumbai" }
+#     ]
+#   }) {
+#     id
+#     name
+#     description
+#   }
+# }
+
+# query {
+#   getProduct(id: "67309fd897a09633bbb45d8f") {
+#   	name
+#     description
+#     inventory
+#     soldout
+#   }
+# }
+
+# query {
+#   getAllProducts {
+#     name
+#     price
+#     description
+#   }
+# }
+
+# mutation {
+#   updateProduct(input: {
+#     id: "6730ab4ac4fa47d3cb2a1be8",
+#     price: 910.00,
+#     stores:	[
+#       { store: "Kolkata" },
+#       { store: "Mumbai" }
+#     ]
+#   }) {
+#     id
+#     name
+#     price
+#   }
+# }
+
+# mutation {
+#   deleteProduct(id: "6730ab4ac4fa47d3cb2a1be8")
+# }
+
+query {
+	widgetone: getProduct(id: "67307fdcb3d1e04bc06e0666") {
+		...productFragment
+	}
+	allwidgets: getAllProducts {
+		...productFragment
+	}
+}
+
+fragment productFragment on Product {
+	name
+	description
+	price
+}

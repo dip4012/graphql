@@ -22,6 +22,7 @@ const schema = buildSchema(`
 
     type Query {
         getProduct(id: ID): Product
+        getAllProducts: [Product]
     }
 
     input StoreInput {
@@ -29,6 +30,7 @@ const schema = buildSchema(`
     }
 
     input ProductInput {
+        id: ID,
         name: String,
         description: String,
         price: Float,
@@ -39,6 +41,8 @@ const schema = buildSchema(`
 
     type Mutation {
         createProduct(input: ProductInput): Product
+        updateProduct(input: ProductInput): Product
+        deleteProduct(id: ID!): String
     }
 `)
 
